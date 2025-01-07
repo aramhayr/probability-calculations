@@ -537,7 +537,7 @@ public class CalculationRoutines {
 		s += "\t -e - Uniform distribution in an ellipse with J (major) and N (minor)\n";
 		s += "radii. After -e provide <tries>, <J>, <N>, <centerX>, <centerY>, to get a circle\n";
 		s += "-r 125000 1, 1, 0, 0 will put random points into the circle of unit radius at origin\n";
-		s += "\t -b - Betrand 2-nd method randomization. Normal (?) distribution in a circle\n";
+		s += "\t -b - Bertrand 2-nd method of randomization. Normal (?) distribution in a circle\n";
 		s += "of unit radius. After -b provide <tries>\n";
 		s += "\t -f - Fractal plain coordinate for each level from d to 1 is calculated as Σ(rand[-1,1]*d),\n";
 		s += "where d is a double. After -f provide <tries>, <depth>. e.g. -G 1500 8 models plane as 8 by 8\n";
@@ -553,15 +553,11 @@ public class CalculationRoutines {
 		s += "(or ellipse). The side BC in front of vertex A (long side - sideL)is selected to be 1 (or random\n";
 		s += "in [0,1] range), while the next side is selected randomly in the [0, sideL] range. Using the angle A\n";
 		s += "and two sides the coordinates of other vertices are calculated. You can also set random rotation of\n";
-		s += "the triangle around the vertex A in range [0, 2π]. After -l provide <tries>, J (major),  N (minor),\n";
+		s += "the triangle around the vertex A in range [0, 2π]. After -G provide <tries>, J (major),  N (minor),\n";
 		s += "<rotate>[y,n], <random> [y,n], e.g. -G 1500 1, 1, n, y\n";
 		s += "Note 1: The results go into the data folder:\n";
 		s += "\tdata\n";
 		s += "\t├── distribution\n";
-		s += "\t│   ├── histograms\n";
-		s += "\t│   │   ├── X-diagram-run-b-rep-225000.jpg\n";
-		s += "\t│   │   ├──  ... \n";
-		s += "\t│   │   └── X-diagram-run-b-rep-225000.jpg\n";
 		s += "\t│   ├── run-b-rep-225000.csv\n";
 		s += "\t│   ├──  ... \n";
 		s += "\t│   └── run-s-rep-225000-inF:137.0.jpg\n";
@@ -577,7 +573,7 @@ public class CalculationRoutines {
 		s += "methods the opposite to the S and M sides vertices marked RED, which are the small and medium angle\n";
 		s += "coordinates respectively\n";
 		s += "Note 2: The system writes over the existing files. To keep previous results for the same parameters\n";
-		s += "you may slightly change number of tries (+1) or rename existing files\n";
+		s += "you may slightly change the number of tries (+1) or rename existing files\n";
 		s += "  Use: \t   'v' for verbose mode (not recommended if tries are more than 100), e.g. -rv\n";
 		s += "\t   't' for storing original (raw) data in csv format, e.g. -rt\n";
 		s += "\t   'o' for saving a JPEG image of points distribution, , e.g. -rto\n";
