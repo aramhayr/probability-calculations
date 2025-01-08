@@ -14,7 +14,7 @@ See Javadocs in the target/site/ folder for more details.
 ## Getting Started
 
 ### -	Build
-Clone the repository: git clone https://github.com/|-user-name-|/probability-calculations.git and navigate to the project directory – the code is in src/ folder. To build the project run: 
+This project depends on https://github.com/aramhayr/CommonUtils library. You need to build it first. Then clone the repository: git clone https://github.com/|-user-name-|/probability-calculations.git and navigate to the project directory – the code is in src/ folder. To build the project run: 
 - mvn clean install
 
 The Javadocs documentation is in target/site/ folder. To view Javadocs click target/site/apidocs/index.html. To build the Javadoc run: 
