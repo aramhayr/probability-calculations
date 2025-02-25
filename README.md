@@ -103,10 +103,37 @@ you may slightly change number of tries (+1) or rename existing files
  Copyright © 2024 - Aram Hayrapetyan -
 
 ## Contributing
-As this is a private repository, please contact the repository owner for information on how to contribute.
+We welcome contributions to this project! Here's how you can help:
+ - Fork the repository
+ - Create your feature branch (git checkout -b feature/AmazingFeature)
+ - Commit your changes (git commit -m 'Add some AmazingFeature')
+ - Push to the branch (git push origin feature/AmazingFeature)
+ - Open a Pull Request
+
+For major changes, please open an issue first to discuss what you would like to change. This ensures that your time is well spent and that your contributions align with the project's goals.
 
 ## License
-This project is proprietary and confidential. Unauthorized copying, transferring or reproduction of the contents of this project, via any medium, is strictly prohibited.
+MIT License
+
+Copyright (c) 2024 Aram Hayrapetyan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
 
