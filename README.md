@@ -1,7 +1,7 @@
 # Probability calculations
 
 ## Overview
-The toolkit consists of these classes for calculating probabilities and investigating the Broken stick and Obtuse triangle problems (see the analysis and explanations in the  _Probability and Ambiguity_ : https://arxiv.org/abs/2412.20728]):
+The toolkit consists of these classes for calculating probabilities and investigating the Broken stick and Obtuse triangle problems (see the analysis and explanations in the  _Probability and Ambiguity_ : https://arxiv.org/abs/2412.20728 ):
 
 1.	_CalculationRoutines_  – contains the main() and routines to configure the application	 
 2.	_ObtuseTriangle_  – routines for creating triangles by randomly selecting vertices in polar and cartesian coordinate systems or in different figures like rectangles, ellipses, etc-	 
